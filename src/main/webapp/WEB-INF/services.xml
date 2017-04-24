@@ -1,0 +1,6 @@
+<service>
+<parameter name="ServiceClass" locked="false">pac.example.HelloWorld</parameter>
+<operation name="message">
+<messageReceiver class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+</operation> 
+</service>
